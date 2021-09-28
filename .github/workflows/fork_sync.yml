@@ -16,3 +16,5 @@ jobs:
           owner: anncwb # fork 上游项目 owner
           head: main # fork 上游项目需要同步的分支
           base: main # 需要同步到本项目的目标分支
+          # merge_method: merge
+          auto_approve: true
